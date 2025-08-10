@@ -1,10 +1,17 @@
 {
   "name": "qpostman",
   "displayName": "QPostMan",
+  "publisher": "baihaqi",
   "description": "Mini Postman langsung di VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "src/assets/icon.png",
   "engines": {
     "vscode": "^1.102.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Baihaqi34/QPostMan.git"
   },
   "categories": [
     "Other"

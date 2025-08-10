@@ -1,65 +1,54 @@
-# coba-aja README
+# qPostman - API Client for VS Code
 
-This is the README for your extension "coba-aja". After writing up a brief description, we recommend including the following sections.
+![qPostman Logo](https://via.placeholder.com/150x50?text=qPostman) <!-- Replace with your actual logo -->
 
-## Features
+A lightweight yet powerful REST API client built right into VS Code, designed for developers who need quick API testing without leaving their editor.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Features ✨
 
-For example if there is an image subfolder under your extension project workspace:
+- **Intuitive Interface**: Clean, theme-aware UI that matches your VS Code theme
+- **Multiple HTTP Methods**: GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS
+- **Request Building**:
+  - JSON body editor with formatting
+  - Raw text body support
+  - URL parameters builder
+- **Response Handling**:
+  - Syntax highlighting for JSON responses
+  - Response time tracking
+  - Status code visualization
+- **Request History**: Keep track of your recent requests
+- **Dark/Light Theme Support**: Automatically adapts to your VS Code theme
 
-\!\[feature X\]\(images/feature-x.png\)
+## Installation ⚡
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Open VS Code
+2. Go to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X`)
+3. Search for "qPostman"
+4. Click Install
+5. Reload VS Code if required
 
-## Requirements
+## Usage 🚀
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+3. Search for and select "Open qPostman"
+4. Enter your API URL and select HTTP method
+5. For POST/PUT/PATCH requests:
+   - Use the JSON tab for structured data
+   - Use the Raw tab for plain text
+   - Add parameters as needed
+6. Click "Send Request"
+7. View response in the bottom panel
 
-## Extension Settings
+### Keyboard Shortcuts
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+| Command | Windows/Linux | macOS |
+|---------|--------------|-------|
+| Open qPostman | `Ctrl+Alt+Q` | `Cmd+Alt+Q` |
 
-For example:
+## Screenshots 📷
 
-This extension contributes the following settings:
+### Dark Theme
+![Dark Theme Screenshot](https://via.placeholder.com/600x400/1e1e1e/ffffff?text=Dark+Theme+Example)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### Light Theme
+![Light Theme Screenshot](https://via.placeholder.com/600x400/ffffff/000000?text=Light+Theme+Example)
