@@ -1,0 +1,45 @@
+{
+  "name": "qpostman",
+  "displayName": "QPostMan",
+  "description": "Mini Postman langsung di VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "miniPostman.open",
+        "title": "Open QPostMan"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "miniPostman.open",
+        "key": "ctrl+alt+q",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "miniPostman.open",
+        "key": "cmd+alt+q",
+        "when": "editorTextFocus",
+        "mac": true
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.92.0",
+    "@types/node": "22.x"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
